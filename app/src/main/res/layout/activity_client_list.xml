@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relSearch"
+        android:background="@color/colorPrimary"
+        android:layout_height="55dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout"
+            android:layout_centerVertical="true"
+            android:elevation="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/browse"
+                android:layout_marginLeft="22dp"
+                android:layout_centerVertical="true"
+                android:text="Online Parking Area Finder"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                app:fontFamily="@font/roboto_condensed_bold"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/shape_circle">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_filter"
+                    android:tint="@color/subtitle"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relSearch"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/trending_recycler_view"
+                android:layout_marginTop="20sp"
+                android:id="@+id/product_title"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Your clients"
+                    android:textSize="22sp"
+                    android:textColor="@color/titleColor"
+                    android:layout_marginLeft="15dp" />
+
+
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/order_recycler_view"
+                android:layout_below="@+id/product_title"
+                android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/shadow_view"/>
+
+        <!--bottom navigation-->
+        <include
+            android:id="@+id/include"
+            layout="@layout/bottom_navigation_view"/>
+    </LinearLayout>
+
+</RelativeLayout>

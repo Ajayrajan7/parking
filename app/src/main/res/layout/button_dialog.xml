@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_marginTop="7dp"
+        android:id="@+id/close"
+        android:layout_marginRight="7dp"
+        android:elevation="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/colorGreenLight"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_marginTop="20dp"
+                android:text="Register as an user"
+                android:textColor="@color/white"
+                android:id="@+id/login"
+                android:background="@drawable/button_sub"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_marginTop="20dp"
+                android:text="Register as a parking manager"
+                android:textColor="@color/white"
+                android:id="@+id/par_login"
+                android:background="@drawable/button_sub"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_marginTop="20dp"
+                android:text="Register as a workshop owner"
+                android:textColor="@color/white"
+                android:id="@+id/ws_login"
+                android:background="@drawable/button_sub"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_marginTop="20dp"
+                android:text="Register as a hospital member"
+                android:textColor="@color/white"
+                android:id="@+id/hos_login"
+                android:background="@drawable/button_sub"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_marginTop="20dp"
+                android:text="Register as a foodshop member"
+                android:textColor="@color/white"
+                android:id="@+id/food_login"
+                android:background="@drawable/button_sub"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "730237960006",
+    "firebase_url": "https://pocketdoctor-2ddc9.firebaseio.com",
+    "project_id": "pocketdoctor-2ddc9",
+    "storage_bucket": "pocketdoctor-2ddc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730237960006:android:9a58112b8f40296c52ef47",
+        "android_client_info": {
+          "package_name": "com.example.parkingfinderprojectfinal.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730237960006-dg3pobk3tm5qt7iarj0h1r9cq82m82ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingfinderprojectfinal.debug",
+            "certificate_hash": "55f1306ef5c47e885fa7e6d1eae06d2f6322b44f"
+          }
+        },
+        {
+          "client_id": "730237960006-df3sth1mpgogfm39u1lpqpbtiagnv6ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJX253EARPiq5zl-Ud4WG6zQrPw4h9jxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730237960006-df3sth1mpgogfm39u1lpqpbtiagnv6ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730237960006:android:3e98c1c94157ef6e",
+        "android_client_info": {
+          "package_name": "com.example.pocketdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730237960006-2j3qf01duqomot61cvgqog6er89laron.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pocketdoctor",
+            "certificate_hash": "55f1306ef5c47e885fa7e6d1eae06d2f6322b44f"
+          }
+        },
+        {
+          "client_id": "730237960006-df3sth1mpgogfm39u1lpqpbtiagnv6ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJX253EARPiq5zl-Ud4WG6zQrPw4h9jxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730237960006-df3sth1mpgogfm39u1lpqpbtiagnv6ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

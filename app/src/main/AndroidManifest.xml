@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkingfinderprojectfinal">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Online Parking Area Finder"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".dummyactivity" />
+        <activity android:name=".Dummy" />
+        <activity android:name=".ClientView" />
+        <activity android:name=".clientList" />
+        <activity android:name=".parLogin" />
+        <activity android:name=".HosActivity" />
+        <activity android:name=".foodActivity" />
+        <activity android:name=".wsActivity" />
+        <activity android:name=".foodSignUp" />
+        <activity android:name=".hosSignUp" />
+        <activity android:name=".wsSignup" />
+        <activity android:name=".PlacesListActivity3" />
+        <activity android:name=".PlacesListActivity2" />
+        <activity android:name=".PlacesListActivity" />
+        <activity android:name=".OrderView" />
+        <activity android:name=".order" />
+        <activity android:name=".par_map" />
+        <activity android:name=".PlaceActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ParSignUp" />
+        <activity android:name=".map" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".home" />
+        <activity android:name=".launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
