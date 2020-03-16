@@ -22,7 +22,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
     public static String id="";
     public static  String token="";
-    public static String u ="https://c604faf2.ngrok.io";
+    public static String u ="https://3a8d5ece.ngrok.io";
     private Retrofit retrofit;
     private RetrofitInterface retrofitInterface;
     private String BASE_URL =u;
@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())

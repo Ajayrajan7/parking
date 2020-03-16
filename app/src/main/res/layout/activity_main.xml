@@ -68,7 +68,7 @@
                         android:textSize="12sp"
                         android:textColor="@android:color/white"
                         android:layout_marginLeft="3dp"
-                        android:text="Enter your username"/>
+                        android:text="Enter your email"/>
 
                     <EditText
                         android:id="@+id/edt_email"
